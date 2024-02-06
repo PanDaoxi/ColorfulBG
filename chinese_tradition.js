@@ -1,0 +1,39 @@
+var colors = [
+	"#FFB3A7", "#ED5736", "#F00056", "#F47983", "#DB5A6B", "#F20C00", "#C93756", "#F05654", "#FF2121", "#8C4356", 
+	"#C83C23", "#9D2933", "#FF4C00", "#FF4E20", "#F35336", "#CB3A56", "#FF2D51", "#C91F37", "#EF7A82", "#FF0097", 
+	"#FF3300", "#C3272B", "#A98175", "#C32136", "#B36D61", "#BE002F", "#DC3023", "#F9906F", "#FFF143", "#FAFF72", 
+	"#EAFF56", "#FFA631", "#FF8C31", "#FF8936", "#FFA400", "#FF7500", "#FFC773", "#F0C239", "#FA8C35", "#B35C44", 
+	"#A88462", "#C89B40", "#60281E", "#B25D25", "#827100", "#7C4B00", "#9B4400", "#AE7000", "#955539", "#CA6924", 
+	"#6E511E", "#D3B17D", "#E29C45", "#896C39", "#D9B611", "#BDDD22", "#C9DD22", "#AFDD22", "#789262", "#A3D900", 
+	"#9ED900", "#0EB83A", "#0AA344", "#00BC12", "#0C8918", "#1BD1A5", "#2ADD9C", "#48C0A3", "#3DE1AD", "#40DE5A", 
+	"#00E09E", "#00E079", "#C0EBD7", "#E0EEE8", "#BBCDC5", "#424C50", "#00E500", "#9ED048", "#96CE54", "#7BCFA6", 
+	"#7BCFA6", "#7FECAD", "#A4E2C6", "#21A675", "#057748", "#BCE672", "#44CEF6", "#177CB0", "#065279", "#3EEDE7", 
+	"#70F3FF", "#4B5CC4", "#A1AFC9", "#2E4E7E", "#3B2E7E", "#4A4266", "#426666", "#425066", "#574266", "#8D4BBB", 
+	"#815463", "#815476", "#4C221B", "#003371", "#56004F", "#801DAE", "#4C8DAE", "#B0A4E3", "#CCA4E3", "#EDD1D8", 
+	"#E4C6D0", "#75878A", "#519A73", "#A29B7C", "#7397AB", "#D1D9E0", "#88ADA6", "#F3D3E7", "#D4F2E7", "#D2F0F4", 
+	"#D3E0F3", "#30DFF3", "#25F8CB", "#FFFFFF", "#FFFBF0", "#F0FCFF", "#D6ECF0", "#F2ECDE", "#E0F0E9", "#F3F9F1", 
+	"#E9F1F6", "#C2CCD0", "#FCEFE8", "#E3F9FD", "#808080", "#EEDEB0", "#F0F0F4", "#622A1D", "#3D3B4F", "#725E82", 
+	"#392F41", "#161823", "#50616D", "#758A99", "#000000", "#493131", "#312520", "#5D513C", "#75664D", "#6B6882", 
+	"#665757", "#41555D", "#F2BE45", "#EACD76", "#E9E7EF", "#549688", "#A78E44", "#BACAC6", 
+];
+
+
+function getRandom(arr) {
+    var result = [];
+    for (var i = 0; i < arr.length && result.length < 3; i++) {
+        if (!result.includes(i)) {
+            var randomIndex = Math.floor(Math.random() * arr.length);
+            
+            while (result.includes(randomIndex)) {
+                randomIndex = Math.floor(Math.random() * arr.length);
+            }
+            
+            result[i] = arr[randomIndex];
+        }
+    }
+    return result;
+}
+
+var tmp = getRandom(colors);
+var body = document.getElementsByTagName("body")[0];
+body.style.background = `linear-gradient(120deg, ${tmp[0]}, ${tmp[1]}, ${tmp[2]})`;
