@@ -15,8 +15,7 @@
 |       `./bright.js`       |                     最明亮的色彩。                     | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/NREvKSAdQgvWvUuHyPQ4DOQxQrkeVcsX/bright.js) |
 |      `./classic.js`       | 包含了常用的中国国画色彩、中国传统色彩和日本传统色彩。 | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/kcCtCyCh9DY0CHNIKXqAiW5joCoBsKuE/classic.js) |
 
-欢迎测试！
-
+欢迎测试！\
 部分颜色来自网络（<https://tool.lu/>），如果侵犯了您的权利，请告知。
 
 ---
@@ -25,9 +24,21 @@
 
 ```html
 <body>
-  // 你的代码。
+  <!-- 你的代码。 -->
   <script src="https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/kcCtCyCh9DY0CHNIKXqAiW5joCoBsKuE/classic.js"></script>
 </body>
 ```
 
 考虑到网络连接可能不畅，建议您慎用 `255mod3` 等大型颜色集，一般情况下 `classic` 应该就够用了，除非您对颜色有更多要求。
+
+---
+
+效果展示：
+
+![image](https://github.com/PanDaoxi/ColorfulBG/assets/63720932/00ae9ef9-6591-4abe-85ca-d3db59f16748)
+
+![image](https://github.com/PanDaoxi/ColorfulBG/assets/63720932/63c66bac-7291-43d1-a206-ce3800c1f794)
+
+![image](https://github.com/PanDaoxi/ColorfulBG/assets/63720932/af9757a0-470e-4b95-8f5f-be3e7e718e78)
+
+这些图片的背景色都来自 `classic.js`。
