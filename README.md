@@ -18,3 +18,16 @@
 欢迎测试！
 
 部分颜色来自网络（<https://tool.lu/>），如果侵犯了您的权利，请告知。
+
+---
+
+用法：
+
+```html
+<body>
+  // 你的代码。
+  <script src="https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/kcCtCyCh9DY0CHNIKXqAiW5joCoBsKuE/classic.js"></script>
+</body>
+```
+
+考虑到网络连接可能不畅，建议您慎用 `255mod3` 等大型颜色集，一般情况下 `classic` 应该就够用了，除非您对颜色有更多要求。
