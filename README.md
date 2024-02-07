@@ -11,7 +11,7 @@
 | `./chinese_tradition.js`  |                  常用的中国传统色彩。                  | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/I5wvu7StMlhyeSVIYIubrSTpvVDyQmIl/chinese_tradition.js) |
 | `./japanese_tradition.js` |                  常用的日本传统色彩。                  | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/g0ShbB57e4BljXW4pATUoEIJQJtzI1F2/japanese_tradition.js) |
 |     `./dark_mode.js`      |              深色模式，其中的颜色比较暗。              | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/QTY5UpSBI333NLbMz68DI4JAM8NQmSin/dark_mode.js) |
-|     `./light_mode.js`     |             浅色模式，其中的颜色比较明亮。             | [CDN]([lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/GXvdR629Ipyk4uq7bBUYjfLjNQmkboRR/light_mode.js](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/GXvdR629Ipyk4uq7bBUYjfLjNQmkboRR/light_mode.js)) |
+|     `./light_mode.js`     |             浅色模式，其中的颜色比较明亮。             | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/GXvdR629Ipyk4uq7bBUYjfLjNQmkboRR/light_mode.js) |
 |       `./bright.js`       |                     最明亮的色彩。                     | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/NREvKSAdQgvWvUuHyPQ4DOQxQrkeVcsX/bright.js) |
 |      `./classic.js`       | 包含了常用的中国国画色彩、中国传统色彩和日本传统色彩。 | [CDN](https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/kcCtCyCh9DY0CHNIKXqAiW5joCoBsKuE/classic.js) |
 
