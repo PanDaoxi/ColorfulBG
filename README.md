@@ -25,7 +25,7 @@
 ```html
 <body>
   <!-- 你的代码。 -->
-  <script src="https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/kcCtCyCh9DY0CHNIKXqAiW5joCoBsKuE/classic.js"></script>
+  <script src="https://lc-gluttony.s3.amazonaws.com/0zpMrNotfBZq/2ahD0gXGeW4QUABiEqOJ9VclChVhHUSR/classic.min.js"></script>
 </body>
 ```
 
